@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*home*/
+.relative:hover .hover\:w-1-5 {
+    width: calc(var(--width) * 1.5);
+    transition: width 0.3s;
+}
+.relative:hover .hover\:opacity-1 {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+@media (max-width: 1000px) {
+    .w-2 {
+        width: calc(var(--width) * 2);
+    }
+}

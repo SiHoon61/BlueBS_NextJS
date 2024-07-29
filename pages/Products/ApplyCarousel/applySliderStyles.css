@@ -1,0 +1,26 @@
+
+
+.apply .slick-prev:before,
+.apply .slick-next:before
+{
+	display: none;				
+}
+
+.apply .slick-dots li button:before {
+    margin-top: 5px;
+    font-size: 8px;
+}
+
+@media (max-width: 600px) {
+  /* .apply .slick-list {
+
+  } */
+  /* .apply .slick-prev {
+  left: 1%;
+  top: 260px;
+  }
+  .apply .slick-next {
+  right: 4%;
+  top: 260px;
+  } */
+}

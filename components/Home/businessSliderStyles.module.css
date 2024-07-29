@@ -1,0 +1,44 @@
+.slider-container1 .slick-list{ 
+  width: 2600px;
+  height: 534px;
+}
+
+.slider-container1 .slick-slider{
+  position: static;
+}
+
+.slider-container1 .slick-prev {
+  z-index: 10;
+  left: 5%;
+  top: 530px;
+}
+
+.slider-container1 .slick-next {
+  z-index: 10;
+  right: 6%;
+  top: 530px;
+}
+
+.slider-container1 .slick-prev:before,
+.slider-container1 .slick-next:before {
+    display: none;				
+}
+
+.slick-slide div {
+    outline: none;
+}
+
+@media (max-width: 600px) {
+  .slider-container1 .slick-list {
+    width: 1200px;
+    height: 234px;
+  }
+  .slider-container1 .slick-prev {
+    left: 1%;
+    top: 260px;
+  }
+  .slider-container1 .slick-next {
+    right: 4%;
+    top: 260px;
+  }
+}
