@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 //img
-import drinkingPD from '../../../assets/Products/Drinking/DrinkingPD.png'
+const drinkingPD = '/assets/Products/Drinking/DrinkingPD.png';
 
 export const TitleBar = styled.div`
     display: flex;

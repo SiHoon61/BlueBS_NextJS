@@ -1,11 +1,10 @@
 import styled from "styled-components";
-import nanobubble from '../../../assets/Technology/nanobubble.png'
+const nanobubble = '/assets/Technology/nanobubble.png'
 //img
-import nanoFeature from '../../../assets/Technology/nanoFeature.png'
-import nanoBird from '../../../assets/Technology/nanoBird2.png'
-import nanoMonitoring from '../../../assets/Technology/nanoMonitoring.png'
-import nanoDevelop from '../../../assets/Technology/nanoDevelop.svg'
-
+const nanoFeature = '/assets/Technology/nanoFeature.png'
+const nanoBird = '/assets/Technology/nanoBird2.png'
+const nanoMonitoring = '/assets/Technology/nanoMonitoring.png'
+const nanoDevelop = '/assets/Technology/nanoDevelop.svg'
 
 export const TitleBar = styled.div`
     display: flex;

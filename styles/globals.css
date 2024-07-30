@@ -1,3 +1,27 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@font-face {
+  font-family: "sansRegular";
+  src: url(/fonts/notoSansKrFont/NotoSansKR-Regular.ttf);
+}
+@font-face {
+  font-family: "sansMedium";
+  src: url(/fonts/notoSansKrFont/NotoSansKR-Medium.ttf);
+}
+@font-face {
+  font-family: "sansBold";
+  src: url(/fonts/notoSansKrFont/NotoSansKR-Bold.ttf);
+}
+
+:root {
+  --font-sansRegular: "sansRegular";
+  --font-sansMedium: "sansMedium";
+  --font-sansBold: "sansBold";
+}
+
+
+
+body {
+  margin: 0;
+  font-family: "sansRegular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

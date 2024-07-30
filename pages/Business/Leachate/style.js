@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 //img
-import leachate from '../../../assets/Business/Leachate/Leachate.png'
-import leachateBody from '../../../assets/Business/Leachate/LeachateBody.png'
+const leachate = '/assets/Business/Leachate/Leachate.png'
+const leachateBody = '/assets/Business/Leachate/LeachateBody.png'
+
 
 export const TitleBar = styled.div`
     display: flex;

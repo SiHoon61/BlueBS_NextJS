@@ -2,12 +2,11 @@ import React from "react";
 import Slider from "react-slick";
 
 //img
-import arrow from "../../../assets/arrow.png"
+const arrow = "/assets/arrow.png"
 
 //library
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./applySliderStyles.css"
 import styled from 'styled-components';
 
 //stlye
@@ -21,6 +20,18 @@ const SliderContainer = styled.div`
     .slick-next {
         z-index: 10;
         right: 3.5%;
+    }
+    .slick-prev:before,
+    .slick-next:before
+    {
+        display: none;				
+    }
+    .slick-dots li button:before {
+        margin-top: 5px;
+        font-size: 8px;
+    }
+    .slick-slide div {
+        outline: none;
     }
     @media (max-width: 1600px) {
         .slick-prev {

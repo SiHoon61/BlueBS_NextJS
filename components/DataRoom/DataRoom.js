@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useRouter } from 'next/router';
 import axios from 'axios';
 
 //style
@@ -11,7 +11,7 @@ import {
 } from './style';
 
 const DataRoom = () => {
-    const navigate = useNavigate();
+    const router = useRouter();
     const [posts, setPosts] = useState([]);
     useEffect(() => {
         const getPosts = async () => {
@@ -26,8 +26,8 @@ const DataRoom = () => {
     }, []);
     
     const referenceHandler = (props) => {
-        navigate(`/referenceRoom`, {state: props});
-    }
+        router.push(`/referenceRoom?id=${props}`);
+    };
 
     return (
         <>

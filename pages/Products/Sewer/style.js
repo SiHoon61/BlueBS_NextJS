@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 //img
-import SewerPD from '../../../assets/Products/Sewer/SewerPD.png'
+const SewerPD = '/assets/Products/Sewer/SewerPD.png';
 
 export const TitleBar = styled.div`
     display: flex;

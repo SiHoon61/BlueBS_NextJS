@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 //img
-import monitoring from '../../../assets/Business/Monitoring/Monitoring.png'
-
+const monitoring = '/assets/Business/Monitoring/Monitoring.png'
 
 export const TitleBar = styled.div`
     display: flex;

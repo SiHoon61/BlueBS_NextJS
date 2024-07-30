@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 //img
-import LeachatePD from '../../../assets/Products/Leachate/LeachatePD.png'
-import processArrow from '../../../assets/Products/Agriculture/processArrow.png'
+const LeachatePD = '/assets/Products/Leachate/LeachatePD.png';
+const processArrow = '/assets/Products/Agriculture/processArrow.png';
+
 export const TitleBar = styled.div`
     display: flex;
     height: 500px;

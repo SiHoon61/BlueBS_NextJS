@@ -1,7 +1,8 @@
 import styled from "styled-components";
-import filter from '../../../assets/Technology/filter.png'
-import msFilter from '../../../assets/Technology/msFilter.png'
-import msfFeature from '../../../assets/Technology/msfFeature.svg'
+const filter = '/assets/Technology/filter.png'
+const msFilter = '/assets/Technology/msFilter.png'
+const msfFeature = '/assets/Technology/msfFeature.svg'
+
 export const TitleBar = styled.div`
     display: flex;
     height: 500px;

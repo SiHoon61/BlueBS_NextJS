@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import processArrow from '../../assets/Products/Agriculture/processArrow.png'
+
+const processArrow = '/assets/Products/Agriculture/processArrow.png'
 
 export const TitleTextBox = styled.div`
     padding-top: 200px;

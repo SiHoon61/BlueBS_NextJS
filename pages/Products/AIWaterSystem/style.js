@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 //img
-import AISmartWater from '../../../assets/Products/AIWaterSystem/AISmartWater.png'
+const AISmartWater = '/assets/Products/AIWaterSystem/AISmartWater.png';
 
 export const TitleBar = styled.div`
     display: flex;

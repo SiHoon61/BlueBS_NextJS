@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 //img
-import fiberFilter from '../../../assets/Technology/fiberFilter.png'
-import msFilter from '../../../assets/Technology/msFilter.png'
+const fiberFilter = '/assets/Technology/fiberFilter.png'
+const msFilter = '/assets/Technology/msFilter.png'
 
 const StyledTable = styled.table`
   width: 100%;

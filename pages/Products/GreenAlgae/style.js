@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 //img
-import GreenAlgaePD from '../../../assets/Products/GreenAlgae/GreenAlgaePD.png'
-import processArrow from '../../../assets/Products/Agriculture/processArrow.png'
-import plus from '../../../assets/Products/GreenAlgae/plus.svg'
+const GreenAlgaePD = '/assets/Products/GreenAlgae/GreenAlgaePD.png';
+const processArrow = '/assets/Products/Agriculture/processArrow.png';
+const plus = '/assets/Products/GreenAlgae/plus.svg';
 
 export const TitleBar = styled.div`
     display: flex;

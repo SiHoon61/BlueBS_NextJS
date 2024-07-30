@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 //img
-import electroCatalyst from '../../../assets/Technology/electroCatalyst.png'
-import elecImg1 from '../../../assets/Technology/elecImg1.png'
-
+const electroCatalyst = '/assets/Technology/electroCatalyst.png'
+const elecImg1 = '/assets/Technology/elecImg1.png'
 
 export const TitleBar = styled.div`
     display: flex;

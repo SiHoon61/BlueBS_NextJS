@@ -1,8 +1,8 @@
 import  { styled } from 'styled-components';
 
 //img
-import communication from '../../../assets/Communication/Communication.png'
-import triangle from '../../../assets/Communication/triangle.png';
+const communication = '/assets/Communication/Communication.png';
+const triangle = '/assets/Communication/triangle.png';
 
 export const TitleBar = styled.div`
     display: flex;

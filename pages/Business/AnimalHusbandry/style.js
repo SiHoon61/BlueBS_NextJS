@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 //img
-import animalHusbandry from '../../../assets/Business/AnimalHusbandry/AnimalHusbandry.png'
-import animalHusbandryBody from '../../../assets/Business/AnimalHusbandry/AnimalHusbandryBody.png'
+const animalHusbandry = '/assets/Business/AnimalHusbandry/AnimalHusbandry.png'
+const animalHusbandryBody = '/assets/Business/AnimalHusbandry/AnimalHusbandryBody.png'
+
 
 export const TitleBar = styled.div`
     display: flex;

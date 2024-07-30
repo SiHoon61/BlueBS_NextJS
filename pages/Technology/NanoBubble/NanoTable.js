@@ -2,10 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 //img
-import nanoTable1 from '../../../assets/Technology/nanoTable1.svg'
-import nanoTable2 from '../../../assets/Technology/nanoTable2.svg'
-import nanoTable3 from '../../../assets/Technology/nanoTable3.svg'
-import nanoTable4 from '../../../assets/Technology/nanoTable4.svg'
+const nanoTable1 = '/assets/Technology/nanoTable1.svg'
+const nanoTable2 = '/assets/Technology/nanoTable2.svg'
+const nanoTable3 = '/assets/Technology/nanoTable3.svg'
+const nanoTable4 = '/assets/Technology/nanoTable4.svg'
+
 const StyledTable = styled.table`
   width: 100%;
   font-size: 20px;

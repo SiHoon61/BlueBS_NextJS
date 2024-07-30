@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 //img
-import et from '../../../assets/Technology/ET.png'
-import daf from '../../../assets/Technology/DAF.png'
-import fiber from '../../../assets/Technology/fiber.png'
+const et = '/assets/Technology/ET.png'
+const daf = '/assets/Technology/DAF.png'
+const fiber = '/assets/Technology/fiber.png'
 
 const StyledTable = styled.table`
   margin-top: 35px;

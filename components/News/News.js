@@ -1,28 +1,33 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
 
 //img
-import newsImg1 from '../../public/assets/Communication/news1.png';
-import newsImg2 from '../../public/assets/Communication/news2.png';
-import newsImg3 from '../../public/assets/Communication/news3.png';
+const newsImg1 = '/assets/Communication/news1.png';
+const newsImg2 = '/assets/Communication/news2.png';
+const newsImg3 = '/assets/Communication/news3.png';
+
+//style
+import {
+    NewsBox,
+    NewsImgs,
+    NewsTitle,
+    NewsDate,
+} from './style';
 
 //modal
-import NewsModal from './NewsModal';
+import NewsModal from '../../modal/NewsModal/NewsModal';
 import ModalPortal from '../../modal/ModalPortal';
 
 const News = () => {
     const [modalState, setModalState] = useState(false);
-    const [modalSelect, setModalSelect] = useState(0);
+    const [modalSelect, setModalSelect] = useState('0');
 
-    const handleOpenModal = (index) => {
-        setModalSelect(index);
+    const handleOpenModal = (props) => {
+        setModalSelect(props);
         setModalState(true);
     };
-
     const handleCloseModal = () => {
         setModalState(false);
     };
-
     const newsJson = [
         {
             title: "농림축산식품 과학기술대전 장관상 수상",
@@ -45,23 +50,20 @@ const News = () => {
             src: newsImg2,
             alt: 'newsImg'
         },
-    ];
-
+    ]
     return (
         <>
-            <div className="flex flex-wrap justify-center">
-                {newsJson.map((list, index) => (
-                    <div key={index} className="flex flex-col w-1/3 aspect-square rounded-lg mb-12 shadow-md hover:brightness-75 transition filter cursor-pointer p-4" onClick={() => handleOpenModal(index)}>
-                        <Image src={list.src} alt="newsImg" className="w-full rounded-t-lg" />
-                        <div className="mt-4 mb-8 text-lg font-medium">
-                            {list.title}
-                        </div>
-                        <div className="absolute bottom-4 left-4 text-gray-500 text-sm">
-                            {list.date}
-                        </div>
-                    </div>
-                ))}
-            </div>
+            {newsJson.map((list, index) => (
+                <NewsBox key={index} onClick={() => { handleOpenModal(index) }}>
+                    <NewsImgs src={list.src} alt="newsImg" />
+                    <NewsTitle>
+                        {list.title}
+                    </NewsTitle>
+                    <NewsDate>
+                        {list.date}
+                    </NewsDate>
+                </NewsBox>
+            ))}
             {modalState && (
                 <ModalPortal>
                     <NewsModal onClose={handleCloseModal} show={modalState} content={newsJson[modalSelect]} />

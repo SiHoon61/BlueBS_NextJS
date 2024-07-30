@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-//img
-import purify from '../../../assets/Business/Purify/purify.png'
-import purifyBody from '../../../assets/Business/Purify/purifyBody.png'
+const purify = '/assets/Business/Purify/purify.png'
+const purifyBody = '/assets/Business/Purify/purifyBody.png'
 
 export const TitleBar = styled.div`
     display: flex;

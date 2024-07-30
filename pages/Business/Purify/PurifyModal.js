@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import styled, { css, keyframes } from "styled-components";
 
 //img
-import close from '../../../assets/Business/close.svg'
+const close = '/assets/Business/close.svg'
 
 const fadeIn = keyframes`
   from {

@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 //img
-import company from '../../../assets/Company/company.png'
-import onlyLogo from '../../../assets/Company/onlyLogo.png'
-import line from '../../../assets/Company/line4.svg'
+const company = '/assets/Company/company.png'
+const onlyLogo = '/assets/Company/onlyLogo.png'
+const line = '/assets/Company/line4.svg'
 
 export const TitleBar = styled.div`
     display: flex;

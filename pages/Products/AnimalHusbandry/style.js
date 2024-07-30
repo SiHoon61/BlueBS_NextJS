@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 //img
-import AnimalHusbandryPD from '../../../assets/Products/AnimalHusbandry/AnimalHusbandryPD.png'
-import processArrow from '../../../assets/Products/Agriculture/processArrow.png'
+const AnimalHusbandryPD = '/assets/Products/AnimalHusbandry/AnimalHusbandryPD.png';
+const processArrow = '/assets/Products/Agriculture/processArrow.png';
+
 
 export const TitleBar = styled.div`
     display: flex;

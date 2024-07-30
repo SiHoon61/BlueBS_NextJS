@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import laboratory from '../../../assets/Company/laboratory.png'
+const laboratory = '/assets/Company/laboratory.png'
 
 export const TitleBar = styled.div`
     display: flex;

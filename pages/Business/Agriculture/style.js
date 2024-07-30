@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 //img
-import agriculture from '../../../assets/Business/Agriculture/agriculture.png'
-import agricultureBody from '../../../assets/Business/Agriculture/agricultureBody.png'
+const agriculture = '/assets/Business/Agriculture/agriculture.png'
+const agricultureBody = '/assets/Business/Agriculture/agricultureBody.png'
+
 
 export const TitleBar = styled.div`
     display: flex;

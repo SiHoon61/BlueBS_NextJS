@@ -22,12 +22,6 @@ import {
     NullText,
 } from './style';
 
-import {
-    SubLargeTitle,
-    SubTitle,
-    FullSubContent,
-} from '../../../components/Body/bodyStyle';
-
 const ReferenceRoom = () => {
     const { state } = useLocation();
     const [refId, setRefId] = useState(state);

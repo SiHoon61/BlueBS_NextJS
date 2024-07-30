@@ -2,10 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 //img
-import advantageTableImg1 from '../../../assets/Technology/advantageTableImg1.png'
-import advantageTableImg2 from '../../../assets/Technology/advantageTableImg2.png'
-import advantageTableImg3 from '../../../assets/Technology/advantageTableImg3.png'
-import advantageTableImg4 from '../../../assets/Technology/advantageTableImg4.png'
+const advantageTableImg1 = '/assets/Technology/advantageTableImg1.png'
+const advantageTableImg2 = '/assets/Technology/advantageTableImg2.png'
+const advantageTableImg3 = '/assets/Technology/advantageTableImg3.png'
+const advantageTableImg4 = '/assets/Technology/advantageTableImg4.png'
+
 
 const StyledTable = styled.table`
   width: 100%;

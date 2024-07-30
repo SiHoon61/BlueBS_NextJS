@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import styled, { keyframes } from "styled-components";
 
-import close from '../../../assets/Business/close.png'
+const close = '/assets/Business/close.png'
 
 const fadeIn = keyframes`
   from {

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 //img
-import arrow from '../../assets/Business/arrow.svg'
+const arrow = '/assets/Business/arrow.svg';
 
 export const TitleTextBox = styled.div`
     padding-top: 200px;

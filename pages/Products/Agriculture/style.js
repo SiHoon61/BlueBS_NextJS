@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 //img
-import AgriculturePD from '../../../assets/Products/Agriculture/AgriculturePD.png'
-import processArrow from '../../../assets/Products/Agriculture/processArrow.png'
+const AgriculturePD = '/assets/Products/Agriculture/AgriculturePD.png';
+const processArrow = '/assets/Products/Agriculture/processArrow.png';
 
 export const TitleBar = styled.div`
     display: flex;

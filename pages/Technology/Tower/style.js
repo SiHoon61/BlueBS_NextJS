@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import tower from '../../../assets/Technology/tower.png'
+const tower = '/assets/Technology/tower.png'
 
 export const TitleBar = styled.div`
     display: flex;

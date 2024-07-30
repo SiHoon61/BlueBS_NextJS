@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 //img
-import greenAlgae from '../../../assets/Business/GreenAlgae/GreenAlgae.png'
-import greenAlgaeBody from '../../../assets/Business/GreenAlgae/GreenAlgaeBody.png'
+const greenAlgae = '/assets/Business/GreenAlgae/GreenAlgae.png'
+const greenAlgaeBody = '/assets/Business/GreenAlgae/GreenAlgaeBody.png'
 
 export const TitleBar = styled.div`
     display: flex;

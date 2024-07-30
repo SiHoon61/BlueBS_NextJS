@@ -1,9 +1,8 @@
-import '../styles/globals.css';
-import '../styles/custom.css';
 import { useRouter } from 'next/router';
-import Header from '../components/Header';
-import Bottom from '../components/Bottom';
-import AdminHeader from '../components/AdminPage/AdminHeader';
+import Header from '../components/Header/Header';
+import Bottom from '../components/Bottom/Bottom';
+import AdminHeader from '../components/AdminHeader/AdminHeader';
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
     const router = useRouter();
