@@ -48,7 +48,7 @@ import {
 } from '../../../components/Body/productsStyle';
 
 //carousel
-import Carousel from '../ApplyCarousel/ApplyCarousel';
+import Carousel from '../../../components/ApplyCarousel/ApplyCarousel';
 
 const GreenAlgae = () => {
     const imgJson = [

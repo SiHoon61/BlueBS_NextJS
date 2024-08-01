@@ -38,7 +38,7 @@ import {
 
 
 //carousel
-import Carousel from '../ApplyCarousel/ApplyCarousel';
+import Carousel from '../../../components/ApplyCarousel/ApplyCarousel';
 
 const AnimalHusbandry = () => {
     const imgJson = [
