@@ -34,51 +34,52 @@ function SwipeToSlide() {
         if (isSliding) {
             e.stopPropagation(); // 슬라이드 중 클릭 이벤트를 무시
         } else {
-            router.push("/drinkingPD");
+            router.push("/Products/Drinking");
         }
     }
     const goSewerPD = (e) => {
         if (isSliding) {
             e.stopPropagation(); // 슬라이드 중 클릭 이벤트를 무시
         } else {
-            router.push("/sewerPD");
+            router.push("/Products/Sewer");
         }
     }
     const goAgriculturePD = (e) => {
         if (isSliding) {
             e.stopPropagation(); // 슬라이드 중 클릭 이벤트를 무시
         } else {
-            router.push("/agriculturePD");
+            router.push("/Products/Agriculture");
         }
     }
     const goAnimalHusbandryPD = (e) => {
         if (isSliding) {
             e.stopPropagation(); // 슬라이드 중 클릭 이벤트를 무시
         } else {
-            router.push("/animalHusbandryPD");
+            router.push("/Products/AnimalHusbandry");
         }
     }
     const goGreenAlgaePD = (e) => {
         if (isSliding) {
             e.stopPropagation(); // 슬라이드 중 클릭 이벤트를 무시
         } else {
-            router.push("/greenAlgae");
+            router.push("/Products/GreenAlgae");
         }
     }
     const goLeachatePD = (e) => {
         if (isSliding) {
             e.stopPropagation(); // 슬라이드 중 클릭 이벤트를 무시
         } else {
-            router.push("/leachatePD");
+            router.push("/Products/Leachate");
         }
     }
     const goAIWaterSystemPD = (e) => {
         if (isSliding) {
             e.stopPropagation(); // 슬라이드 중 클릭 이벤트를 무시
         } else {
-            router.push("/aIWaterSystemPD");
+            router.push("/Products/AIWaterSystem");
         }
     }
+
     const SlickButtonFix = ({ currentSlide, slideCount, children, ...props }) => (
         <span {...props}>{children}</span>
     );

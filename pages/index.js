@@ -62,17 +62,17 @@ function useWindowSize() {
 const Home = () => {
     const router = useRouter();
     const goElectroCatalyst = () => {
-        router.push("/electroCatalyst");
-    };
+        router.push("/Technology/ElectroCatalyst");
+    }
     const goTower = () => {
-        router.push("/tower");
-    };
+        router.push("/Technology/Tower");
+    }
     const goFilter = () => {
-        router.push("/filter");
-    };
+        router.push("/Technology/Filter");
+    }
     const goNanoBubble = () => {
-        router.push("/nanoBubble");
-    };
+        router.push("/Technology/NanoBubble");
+    }
     const size = useWindowSize();
     return (
         <>

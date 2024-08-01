@@ -32,51 +32,52 @@ function BusinessCarousel() {
         if (isSliding) {
             e.stopPropagation(); // 슬라이드 중 클릭 이벤트를 무시
         } else {
-            router.push("/purify");
+            router.push("/Business/Purify");
         }
     };
     const goSewer = (e) => {
         if (isSliding) {
             e.stopPropagation(); // 슬라이드 중 클릭 이벤트를 무시
         } else {
-            router.push("/sewer");
+            router.push("/Business/Sewer");
         }
     };
     const goAgriculture = (e) => {
         if (isSliding) {
             e.stopPropagation(); // 슬라이드 중 클릭 이벤트를 무시
         } else {
-            router.push("/agriculture");
+            router.push("/Business/Agriculture");
         }
     };
     const goAnimalHusbandry = (e) => {
         if (isSliding) {
             e.stopPropagation(); // 슬라이드 중 클릭 이벤트를 무시
         } else {
-            router.push("/animalHusbandry");
+            router.push("/Business/AnimalHusbandry");
         }
     };
     const goGreenAlgae = (e) => {
         if (isSliding) {
             e.stopPropagation(); // 슬라이드 중 클릭 이벤트를 무시
         } else {
-            router.push("/greenAlgae");
+            router.push("/Business/GreenAlgae");
         }
     };
     const goLeachate = (e) => {
         if (isSliding) {
             e.stopPropagation(); // 슬라이드 중 클릭 이벤트를 무시
         } else {
-            router.push("/leachate");
+            router.push("/Business/Leachate");
         }
     };
     const goMonitoring = (e) => {
         if (isSliding) {
             e.stopPropagation(); // 슬라이드 중 클릭 이벤트를 무시
         } else {
-            router.push("/monitoring");
+            router.push("/Business/Monitoring");
         }
     };
+
 
     const SlickButtonFix = ({ currentSlide, slideCount, children, ...props }) => (
         <span {...props}>{children}</span>
