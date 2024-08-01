@@ -16,7 +16,7 @@ import {
     ElecImg1,
     EFImgBox,
     EfImg,
-} from './style';
+} from '../../../styles/Technology/ElectroCatalyst/style';
 
 import {
     SubColumnContainer,

@@ -21,7 +21,7 @@ import {
     Imgs,
     DifferentImgs,
     DevelopDescription,
-} from './style'
+} from '../../../styles/Products/AIWaterSystem/style'
 
 import {
     SubColumnContainer,

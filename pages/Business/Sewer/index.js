@@ -16,7 +16,7 @@ import {
     PerformanceImgBox,
     PerformanceImgContainer,
     PerformanceImg,
-} from './style'
+} from '../../../styles/Business/Sewer/style'
 
 import {
     SubLargeTitle,

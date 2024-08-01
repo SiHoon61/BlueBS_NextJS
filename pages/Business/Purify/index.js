@@ -12,7 +12,7 @@ import {
     TitleBar,
     BodyImg,
     PerformanceVideo,
-} from './style'
+} from '../../../styles/Business/Purify/style'
 
 import {
     SubLargeTitle,

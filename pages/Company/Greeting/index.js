@@ -16,7 +16,7 @@ import {
     NameBox,
     SignBox,
     SingImg,
-} from './style'
+} from '../../../styles/Company/Greeting/style'
 
 const Greeting = () => {
     return (

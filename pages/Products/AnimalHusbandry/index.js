@@ -14,7 +14,7 @@ const applyImg5 = '/assets/Products/AnimalHusbandry/apply5.png';
 //style
 import {
     TitleBar,
-} from './style'
+} from '../../../styles/Products/AnimalHusbandry/style'
 
 import {
     SubColumnContainer,

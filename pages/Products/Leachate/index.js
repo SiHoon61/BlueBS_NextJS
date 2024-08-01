@@ -18,7 +18,7 @@ import {
     ImgBox,
     Imgs,
     SolutionDescription,
-} from './style'
+} from '../../../styles/Products/Leachate/style'
 
 import {
     SubColumnContainer,

@@ -24,7 +24,7 @@ import {
     ImgContainer,
     HistoryImg,
     ImgDescription,
-} from './style'
+} from '../../../styles/Company/History/style'
 
 const History = () => {
     return (

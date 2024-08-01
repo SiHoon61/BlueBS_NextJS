@@ -18,7 +18,7 @@ import {
     Subject,
     LabImgBox,
     LabImg,
-} from './style'
+} from '../../../styles/Company/Laboratory/style'
 
 import {
     SubLargeTitle,

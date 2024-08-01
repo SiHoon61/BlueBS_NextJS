@@ -39,7 +39,7 @@ import {
     NanoSoftWareImg,
     GreyDescription,
     GreyStyle,
-} from './style'
+} from '../../../styles/Technology/NanoBubble/style'
 import {
     SubLargeTitle,
     SubColumnContainer,

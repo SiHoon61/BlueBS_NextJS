@@ -12,7 +12,7 @@ import {
     EmptyBox,
     RegularText,
     Hr,
-} from './style';
+} from '../../../styles/Communication/MapWay/style';
 
 const MapWay = () => {
     return (

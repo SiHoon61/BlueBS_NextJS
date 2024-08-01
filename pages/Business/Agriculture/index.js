@@ -15,7 +15,7 @@ import {
     BodyImg,
     AgricultureImg,
     PerformanceImg,
-} from './style'
+} from '../../../styles/Business/Agriculture/style'
 
 import {
     ImgSubTitle,

@@ -16,7 +16,7 @@ import {
     BoldStyle,
     MSFFeatureImg,
     ContentLi
-} from './style'
+} from '../../../styles/Technology/Filter/style'
 import {
     SubLargeTitle,
     SubColumnContainer,

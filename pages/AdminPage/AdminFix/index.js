@@ -14,7 +14,7 @@ import {
     DateText,
     FixButton,
     DeleteButton,
-} from './style';
+} from '../../../styles/AdminPage/AdminFix/style';
 
 //modal
 import FixModal from '../../../modal/PostFixModal/PostFixModal';

@@ -24,7 +24,7 @@ import {
     TitleBar,
     SubImg,
     SubRowContainer,
-} from './style'
+} from '../../../styles/Products/Agriculture/style'
 
 import {
     ImgSubTitle,

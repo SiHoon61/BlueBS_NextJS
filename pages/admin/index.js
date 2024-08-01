@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import {
     LoginContainer,
     LoginForm,
-} from './style'
+} from '../../styles/admin/style'
 
 
 const AdminLogin = () => {

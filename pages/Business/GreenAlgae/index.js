@@ -14,7 +14,7 @@ import {
     TitleBar,
     BodyImg,
     PerformanceImg,
-} from './style'
+} from '../../../styles/Business/GreenAlgae/style'
 
 import {
     SubLargeTitle,

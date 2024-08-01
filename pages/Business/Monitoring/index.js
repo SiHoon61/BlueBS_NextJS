@@ -16,7 +16,7 @@ import {
     SubImgContainer,
     TechImg,
     ImgDescription,
-} from './style'
+} from '../../../styles/Business/Monitoring/style'
 
 import {
     SubLargeTitle,

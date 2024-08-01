@@ -25,7 +25,7 @@ import {
     ImgBox,
     Imgs,
     PlusImg,
-} from './style'
+} from '../../../styles/Products/GreenAlgae/style'
 
 import {
     SubColumnContainer,

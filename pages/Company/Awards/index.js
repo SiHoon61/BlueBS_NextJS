@@ -58,7 +58,7 @@ import {
     AwardName,
     AwardImg,
     NoBorderAwardImg,
-} from './style'
+} from '../../../styles/Company/Awards/style'
 
 const Awards = () => {
     const [isSelect, setIsSelect] = useState('0');

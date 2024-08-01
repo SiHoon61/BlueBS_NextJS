@@ -8,7 +8,7 @@ import {
     NewsContainer,
     SubContainer,
     MedianLine,
-} from './style';
+} from '../../../styles/Communication/NewsRoom/style';
 
 import {
     SubTitle,

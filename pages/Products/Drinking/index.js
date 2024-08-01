@@ -14,7 +14,7 @@ const applyImg6 = '/assets/Products/Drinking/apply6.png';
 import {
     TitleBar,
     FullImg,
-} from './style'
+} from '../../../styles/Products/Drinking/style'
 
 import {
     SubColumnContainer,

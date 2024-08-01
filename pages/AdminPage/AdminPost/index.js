@@ -29,7 +29,7 @@ import {
     NavigateBox,
     NavigateButton,
     NullText,
-} from './style'
+} from '../../../styles/AdminPage/AdminPost/style'
 
 const samplejpg = '/assets/blackLogo.png';
 

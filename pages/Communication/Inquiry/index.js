@@ -27,7 +27,7 @@ import {
     Submit,
     EmailContainer,
     DomainContainer,
-} from './style';
+} from '../../../styles/Communication/Inquiry/style';
 
 import ClassifyDropdown from './ClassifyDropdown';
 import ModalPortal from '../../../modal/ModalPortal';

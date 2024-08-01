@@ -28,7 +28,7 @@ import {
     ImgDescription,
     GreyDescription,
     Imgs,
-} from './style'
+} from '../../../styles/Products/Sewer/style'
 
 import {
     SubColumnContainer,

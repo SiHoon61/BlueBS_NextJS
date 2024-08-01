@@ -16,7 +16,7 @@ import {
     TowerVideo,
     SeparationVideoBox,
     SeparationVideo,
-} from './style'
+} from '../../../styles/Technology/Tower/style'
 
 import {
     SubLargeTitle,

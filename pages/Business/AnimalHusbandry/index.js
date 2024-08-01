@@ -13,7 +13,7 @@ import {
     TitleBar,
     BodyImg,
     PerformanceImg,
-} from './style'
+} from '../../../styles/Business/AnimalHusbandry/style'
 
 import {
     SubLargeTitle,
