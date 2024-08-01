@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useRouter } from 'next/router';
 import axios from 'axios';
 
 //style
@@ -17,12 +17,12 @@ import {
 } from './style';
 
 //modal
-import FixModal from './FixModal';
+import FixModal from '../../../modal/PostFixModal/PostFixModal';
 import ModalPortal from '../../../modal/ModalPortal';
 
 
 const AdminFix = () => {
-    const navigate = useNavigate();
+    const router = useRouter();
     const [posts, setPosts] = useState([]);
     const [modalState, setModalState] = useState(false);
     const [modalSelect, setModalSelect] = useState('');
@@ -46,7 +46,7 @@ const AdminFix = () => {
                 console.log(response.data);
             } catch (error) {
                 console.error('Token verification failed:', error);
-                navigate('/AdminLogin');
+                router.push('/AdminLogin');
             }
         };
         const getPosts = async () => {
@@ -62,7 +62,7 @@ const AdminFix = () => {
     }, [modalData]);
 
     const referenceHandler = (props) => {
-        navigate(`/AdminPage/AdminFix`, { state: props });
+        router.push(`/AdminPage/AdminFix`, { state: props });
     }
 
     const deleteHandler = async (props) => {

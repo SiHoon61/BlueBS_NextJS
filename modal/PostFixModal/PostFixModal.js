@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
-import styled, { css, keyframes } from "styled-components";
 import axios from 'axios';
 //img
-import close from '../../../assets/Business/close.svg'
+const close = '/assets/Business/close.svg'
+const blackLogo = '/assets/blackLogo.png';
 
 //style
 import {
@@ -23,10 +23,7 @@ import {
     Submit,
     InputContainer,
     DeleteButton,
-} from './modalStyle';
-
-//img
-import blackLogo from '../../../assets/blackLogo.png';
+} from './style';
 
 const FixModal = ({ show, onClose, content }) => {
     const [postTitle, setPostTitle] = useState('');
