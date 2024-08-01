@@ -28,7 +28,7 @@ import {
     NewsContainer,
     NewsText,
     NewsBox,
-} from './style';
+} from '../styles/Home/style';
 
 //news
 import News from '../components/News/News';

@@ -5,7 +5,7 @@ import {
     Triangle,
     ClassifyBox,
     ClassifyOption,
-} from './style'
+} from '../../../styles/Communication/Inquiry/style'
 
 const ClassifyDropdown = ({ updateClassifyData }) => {
     const [visibleClassify, setVisibleClassify] = useState(false);
