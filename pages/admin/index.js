@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from "axios";
-import { useNavigate } from 'react-router-dom';
+import { useRouter } from 'next/router';
 
 import {
     LoginContainer,
@@ -9,22 +9,22 @@ import {
 
 
 const AdminLogin = () => {
-    const navigate = useNavigate();
+    const router = useRouter();
     const [id, setId] = useState('');
     const [pw, setPw] = useState('');
 
     const loginHandler = async (event) => {
         event.preventDefault();
         try {
-            const response = await axios.post(`${process.env.REACT_APP_SERVER_URL}/login`, {
+            const response = await axios.post('/api/login', {
                 id: id,
                 pw: pw,
-            },{
+            }, {
                 withCredentials: true
             });
             alert('로그인 성공');
             console.log(response.headers);
-            navigate('/AdminPage/AdminPost');
+            router.push(`/AdminPage/AdminPost`);
         } catch (error) {
             alert(error.response.data.message);
         }

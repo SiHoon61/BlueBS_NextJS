@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+import { useRouter } from 'next/router';
 
 //style
 import {
@@ -31,10 +31,10 @@ import {
     NullText,
 } from './style'
 
-import samplejpg from '../../../assets/blackLogo.png';
+const samplejpg = '/assets/blackLogo.png';
 
 const AdminPost = () => {
-    const navigate = useNavigate();
+    const router = useRouter();
     const [postTitle, setPostTitle] = useState('');
     const [postWriter, setPostWriter] = useState('');
     const [postContent, setPostContent] = useState('');
@@ -50,17 +50,17 @@ const AdminPost = () => {
     useEffect(() => {
         const verifyToken = async () => {
             try {
-                const response = await axios.get(`${process.env.REACT_APP_SERVER_URL}/verifyToken`, {
+                const response = await axios.get('/api/verifyToken', {
                     withCredentials: true // 쿠키를 포함하여 요청
                 });
                 console.log(response.data);
             } catch (error) {
                 console.error('Token verification failed:', error);
-                navigate('/AdminLogin');
+                router.push('/admin');
             }
         };
 
-        //verifyToken();
+        verifyToken();
     }, []);
 
 
@@ -69,7 +69,6 @@ const AdminPost = () => {
         e.preventDefault();
         const file = e.target.files[0];
         const name = e.target.name;
-        console.log(e.target.value);
         if (e.target.files.length > 0) {
             if (name === 'pdf') {
                 setPostPDF(file);
@@ -107,7 +106,7 @@ const AdminPost = () => {
             pdfInputRef.current.value = '';
         }
         try {
-            const response = await axios.post(`${process.env.REACT_APP_SERVER_URL}/upload`, formData, {
+            const response = await axios.post('/api/upload', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },

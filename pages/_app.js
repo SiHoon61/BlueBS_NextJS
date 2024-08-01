@@ -6,13 +6,22 @@ import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
     const router = useRouter();
-    const isAdminRoute = router.pathname.startsWith('/admin');
+    const isAdminPage = router.pathname.startsWith('/AdminPage');
+    const isAdminLogin = router.pathname.startsWith('/admin');
 
     return (
         <>
-            {isAdminRoute ? <AdminHeader /> : <Header />}
+            {isAdminPage ? (
+                <AdminHeader />
+            ) : isAdminLogin ? null : (
+                <Header />
+            )}
             <Component {...pageProps} />
-            {!isAdminRoute && <Bottom />}
+            {isAdminPage ? (
+                null
+            ) : isAdminLogin ? null : (
+                    <Bottom />
+            )}
             <div id="modal" />
         </>
     );
