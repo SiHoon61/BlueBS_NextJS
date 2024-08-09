@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 
 //style
 import {
@@ -11,9 +12,13 @@ import {
 } from './style';
 
 const Bottom = () => {
+    const router = useRouter();
+    const goAdmin = () => {
+        router.push("/admin");
+    }
     return (
         <Container>
-            <WhiteLogo />
+            <WhiteLogo onClick={goAdmin} />
             <TextBox>
                 <CompanyName>
                     (주)블루비에스
